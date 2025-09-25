@@ -65,6 +65,7 @@ for i in range(3):
     print(f"{i+1}. {pwd} - {level}")
 
 # Created by Gao Le
+# im 12 btw
 user_password = input("\nEnter a password to check strength: ")
 strength, level, feedback = check_password_strength(user_password)
 print(f"\nStrength: {level} ({strength}/4)")
